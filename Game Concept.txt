@@ -1,0 +1,8 @@
+Creepy apartment building full of shards of a mirror
+Have to find all shards and return to the top to create mirror portal and escape
+Building is very dark, all the player has is a torch
+Building has elements of random generation
+Shadow creatures that will attack the player and kill him
+Shadow creatures will be slowed in torch light, can be killed by focusing torch on them
+Focusing torch drains battery, which will recharge when not focused
+Can also find batteries around
