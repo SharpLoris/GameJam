@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 61341a4b664dcb843a930a4c742a61aa
 timeCreated: 1447449032
 licenseType: Pro
@@ -24,6 +25,14 @@ ModelImporter:
     4300004: Cushion_Left
     7400000: Default Take
     9500000: //RootNode
+=======
+guid: 7300d0c8e2d3da94ba378558a7d30c9e
+timeCreated: 1447446932
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName: {}
+>>>>>>> 6c87b1593f896adf88079166c26f28bf997a039b
   materials:
     importMaterials: 1
     materialName: 0
