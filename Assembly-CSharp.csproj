@@ -46,11 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
      <Compile Include="Assets\Scenes\WorldGen\WorldGenerator.cs" />
-=======
-     <Compile Include="Assets\Scripts\TorchCone.cs" />
->>>>>>> 6c87b1593f896adf88079166c26f28bf997a039b
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
