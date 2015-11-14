@@ -6,8 +6,8 @@ public class WorldGenerator : MonoBehaviour {
 
 	public GameObject room;
 	public GameObject stairs;
-	public GameObject roomLeft;
-	public GameObject roomRight;
+	public GameObject door;
+	public GameObject wall;
 
 	public int roomSize = 5;
 	public int roomSizeH = 2;
@@ -40,15 +40,18 @@ public class WorldGenerator : MonoBehaviour {
 
 				if(x == 1)
 				{
-					_rooms[x] = (GameObject)Instantiate(roomRight,new Vector3((0+roomSize)*x,(0+roomSizeH)*y,0),Quaternion.identity);
+					_rooms[x] = (GameObject)Instantiate(room,new Vector3((0+room.GetComponent<roomData>().size)*x,(0+roomSizeH)*y,0),Quaternion.identity);
+					GameObject wallObj = (GameObject)Instantiate(wall,new Vector3((room.GetComponent<roomData>().size)*x,(0+roomSizeH)*y,0),Quaternion.identity);
+					wallObj.transform.parent = this.transform;
 				}
 				else if(x == worldWidth)
 				{
-					_rooms[x] = (GameObject)Instantiate(roomLeft,new Vector3((0+roomSize)*x,(0+roomSizeH)*y,0),Quaternion.identity);
+					_rooms[x] = (GameObject)Instantiate(room,new Vector3((0+room.GetComponent<roomData>().size)*x,(0+roomSizeH)*y,0),Quaternion.identity);
 				}
 				if(x != level)
 				{
-					_rooms[x] = (GameObject)Instantiate(room,new Vector3((0+roomSize)*x,(0+roomSizeH)*y,0),Quaternion.identity);
+					_rooms[x] = (GameObject)Instantiate(room,new Vector3((0+room.GetComponent<roomData>().size)*x,(0+roomSizeH)*y,0),Quaternion.identity);
+
 				}
 				else
 				{

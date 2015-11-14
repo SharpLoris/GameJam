@@ -87,6 +87,48 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &761653591
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 430652, guid: ca7f147be93955848b8c542dcdf0fc3b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -.187914819
+      objectReference: {fileID: 0}
+    - target: {fileID: 430652, guid: ca7f147be93955848b8c542dcdf0fc3b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.250193417
+      objectReference: {fileID: 0}
+    - target: {fileID: 430652, guid: ca7f147be93955848b8c542dcdf0fc3b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2.4886694
+      objectReference: {fileID: 0}
+    - target: {fileID: 430652, guid: ca7f147be93955848b8c542dcdf0fc3b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430652, guid: ca7f147be93955848b8c542dcdf0fc3b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430652, guid: ca7f147be93955848b8c542dcdf0fc3b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 430652, guid: ca7f147be93955848b8c542dcdf0fc3b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 430652, guid: ca7f147be93955848b8c542dcdf0fc3b, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ca7f147be93955848b8c542dcdf0fc3b, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1286743113
 GameObject:
   m_ObjectHideFlags: 0
@@ -174,10 +216,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fc54108293f66644b2f42cf5a736028, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  room: {fileID: 199358, guid: 80075e457e6f68d42a45d9da2f565e7f, type: 2}
+  room: {fileID: 161626, guid: 79b599a64daaeb44fa1b6eac251bff6b, type: 2}
   stairs: {fileID: 176746, guid: e4f1bbc6f5b6903469b95d6d3a7efb30, type: 2}
-  roomLeft: {fileID: 164608, guid: 8d66c3d1d18009d438444afb3c4d684c, type: 2}
-  roomRight: {fileID: 148502, guid: a61294a5dc7c730459277007193b74ab, type: 2}
+  door: {fileID: 134694, guid: ca7f147be93955848b8c542dcdf0fc3b, type: 2}
+  wall: {fileID: 112854, guid: 3e60e22862307ba4caaa35b17a264ee9, type: 2}
   roomSize: 5
   roomSizeH: 2
   worldWidth: 7
