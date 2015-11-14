@@ -6,3 +6,4 @@ Shadow creatures that will attack the player and kill him
 Shadow creatures will be slowed in torch light, can be killed by focusing torch on them
 Focusing torch drains battery, which will recharge when not focused
 Can also find batteries around
+Perks or modifiers, such as longer battery life but slower movement
